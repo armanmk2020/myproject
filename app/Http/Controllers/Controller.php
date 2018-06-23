@@ -11,5 +11,11 @@ use function Sodium\crypto_box_publickey_from_secretkey;
 class Controller extends BaseController
 {
     use AuthorizesRequests, DispatchesJobs, ValidatesRequests;
+
+
+    public function hello()
+    {
+        return "hello world";
+    }
 }
 
