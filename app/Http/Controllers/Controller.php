@@ -12,13 +12,5 @@ class Controller extends BaseController
     use AuthorizesRequests, DispatchesJobs, ValidatesRequests;
 
 
-    public function hello()
-    {
-        return "hello world";
-    }
-
-    public function bye()
-    {
-        return "bye world";
-    }
+   
 }
